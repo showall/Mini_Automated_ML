@@ -1,0 +1,175 @@
+
+*{
+	font-family: Calibri Light;
+}
+
+body{
+background:linear-gradient(to right,rgb(99, 131, 138),rgb(154, 167, 41));
+height:90vh;
+width:90%;
+justify-content: center;
+text-align:center;
+
+}
+
+h1{
+text-align:center;
+color: 	rgb(49, 49, 49);
+margin-bottom:30px;
+margin-top:10px;
+
+}
+
+.Input{
+height:35px;
+width:150px;
+margin-left:10px;
+border:2px;
+margin-bottom:5px;
+background:transparent;
+border-bottom:1px solid rgb(35, 193, 227);
+font-size:19px;
+color:rgb(49, 49, 49);
+padding-left:8px;
+font-size:16px;
+padding-left:10px;
+}
+
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+::placeholder, .placeholder2{
+color:rgb(50,50,50);
+font-size:16px;
+padding-left:10px;
+
+}
+
+.pred-btn{
+text-align:center;
+height:60px;
+width:150px;
+margin-left:20px;
+font-size:25px;
+background:linear-gradient(to left top,rgb(12, 146, 177),rgb(15, 9, 15)100%);
+color:white;
+margin-top:10px;
+border:2px solid white;
+border-radius:30px;
+
+
+}
+.pred-btn:hover{
+background:linear-gradient(to right,rgb(156, 110, 156),rgb(35, 193, 227));
+color:black;
+border:2px solid black;
+}
+
+select option{
+color:black;
+font-size:16px;
+padding-left:10px;
+}
+
+h3{
+font-size:20px;
+color:rgb(209, 73, 212);
+text-align:left;
+margin-left:35px;
+}
+
+h2{
+text-align:center;
+color:black;
+}
+
+.model_desc{
+width:280px;
+color:white;
+font-size:17px;
+float:left;
+font:Calibri;
+padding:10px;
+display:inline-box;
+line-height: 1.1em;
+height:520px;
+margin-left:10%;
+margin-top:5px;
+margin-bottom:10px;
+text-align: left;
+border-top-left-radius:30px;
+border-bottom-left-radius:30px;
+background:rgb(159, 176, 177);
+}
+
+.data_part{
+margin-top:5px;
+/* margin-right:10%; */
+border-left:2px solid white;
+width:680px;
+margin-left:10px;
+float:left;
+border-top-right-radius:30px;
+border-bottom-right-radius:30px;
+background:white;
+height:520px;
+padding:10px;
+}
+
+.model_desc2{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1110px) {
+ body{
+  background:linear-gradient(to right,rgb(35, 193, 227),rgb(209, 73, 212));
+ }
+
+.model_desc{
+display: none;
+  }
+
+.model_desc2{
+ display: inline-block;
+width:auto;
+color:white;
+font-size:17px;
+padding:10px;
+line-height: 1.0em;
+height:auto;
+text-align: left;
+border-top-left-radius:10px;
+border-bottom-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+background:rgb(209, 73, 212);
+margin:0;
+}
+
+.Input{
+  margin-bottom: 5px;
+}
+.data_part {
+   color:blue;
+   width: 70%;
+   height: auto;
+   float: left;
+   padding: 10px;
+   margin-left: 85px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   border-top-left-radius:30px;
+   border-bottom-left-radius:30px;
+   border-top-right-radius:30px;
+   border-bottom-right-radius:30px;
+  }
+
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salary Web Application</title>
+    <meta charset="utf-8">
+	<meta name="author" content="gs">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="static/AppStyle.css">
+
+
+</head>
+<body>
+
+    <div class="model_desc">
+    <h2> Model Description </h2><br>
+    <p>This web application is a salary prediction system for footballer.</p>
+    <p>This model is trained on more than ten thousands of players' data from various football leagues. <br><br>This model is regularly checked for new data drift and will be retrained on regular interval.<br><br>
+    <br><br> Current Model R2-value : {{model_score}} <br><br>
+    </p>
+
+</div>
+
+<div class="data_part">
+
+    <h1>SALARY PREDICTION</h1>
+    <form action="{{url_for('predictone')}}" method="post">
+            <input class="Input" type="number" step="1" min="14" max="60" name="age" placeholder="Enter age" required/>
+            <input class="Input" type="number" step="0.1" min="100" max="250" name="height_cm" placeholder="Enter height(cm)" required/>
+            <input class="Input" type="number" step="0.1" min="10" max="250" name="weight_kg" placeholder="Enter weight(kg)" required/>
+            <input class="Input" type="number" name="release_clause" placeholder="release clause required,0 othws" required/>
+        <select name="club" class="Input">
+              <option value="Southampton">None</option>
+              <option value='FC Barcelona'>FC Barcelona</option>
+              <option value='Real Madrid'>Real Madrid</option>
+              <option value='Juventus'>Juventus</option>
+              <option value='Manchester City'>Manchester City</option>
+              <option value='Paris Saint-Germain'>Paris Saint-Germain</option>
+              <option value='Manchester United'>Manchester United</option>
+              <option value='Liverpool'>Liverpool</option>
+              <option value='Chelsea'>Chelsea</option>
+              <option value='FC Bayern München'>FC Bayern München</option>
+              <option value='Tottenham Hotspur'>Tottenham Hotspur</option>
+              <option value='Arsenal'>Arsenal</option>
+              <option value='Borussia Dortmund'>Borussia Dortmund</option>
+              <option value='Napoli'>Napoli</option>
+              <option value='Inter'>Inter</option>
+              <option value='Atlético Madrid'>Atlético Madrid</option>
+              <option value='West Ham United'>West Ham United</option>
+              <option value='Wolverhampton Wanderers'>Wolverhampton Wanderers</option>
+              <option value='Everton'>Everton</option>
+              <option value='Leicester City'>Leicester City</option>
+              <option value='Olympique Lyonnais'>Olympique Lyonnais</option>
+              <option value='Lazio'>Others</option>              
+              <!-- {% for o in data %}
+              <option value="{{ o.club }}">{{ o.club }}</option>
+              {% endfor %} -->
+            </select>
+        <input class="Input" type="number" step="1" min="1" max="100" name="potential" placeholder="potential metric (/100)" required/>
+        <input class="Input" type="number" step="1" min="1" max="100" name="overall" placeholder="overall metric  (/100)" required/>  
+        <select name="preferred_foot" class="Input">
+              <option value="left">Preferred Foot</option>
+              <option value="left">left</option>
+              <option value="right">right</option>
+            </select>
+        <select name="international_reputation" class="Input" type="number" min="1" max="5">
+            <option value=1>Int. Reputation</option>
+            <option value=1>1 (no to litte involvement)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (regular international)</option>
+            </select> <br><br>     
+        <select name="weak_foot" class="Input"  type="number" min="1" max="5">
+            <option value=1>Weak Foot Tendency</option>
+            <option value=1>1 (no to litte tendency)</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5 (equal mastery as dominant)</option>
+            </select>
+        <select name="skill_moves" class="Input"  type="number" min="1" max="5">
+            <option value=1>Skill Level</option>
+            <option value=1>1 (safe and efficient)</option>
+            <option value=2>2 (Can beat a player)</option>
+            <option value=3>3 (Loves to dribble)</option>
+            <option value=4>4 (its part of the game)</option>
+            <option value=5>5 (Bring on the Samba!)</option>
+            </select>
+        <select name="work_rate" class="Input"  type="number" min="1" max="5">
+            <option value=1>Work Rate</option>
+            <option value=1>1 (impassionate)</option>
+            <option value=2>2 (just a job..)</option>
+            <option value=3>3 (professional)</option>
+            <option value=4>4 (demanding)</option>
+            <option value=5>5 (a workhorse)</option>
+            </select><br><br>
+        <select name="versatility" class="Input"  type="number" min="1" max="3">
+            <option value=1>Versatility</option>
+            <option value=1>Specialist</option>
+            <option value=2>Can Adapt in One Position</option>
+            <option value=3>Able to play wherever!</option>
+            </select>
+        <select name="dominant_position" class="Input">
+            <option value="GK">Dominant Position</option>
+            <option value='CAM'>CAM</option>
+            <option value='CB'>CB</option>
+            <option value='CDM'>CDM</option>
+            <option value='CF'>CF</option>
+            <option value='CM'>CM</option>
+            <option value='GK'>GK</option>
+            <option value='LAM'>LAM</option>
+            <option value='LB'>LB</option>
+            <option value='LCB'>LCB</option>
+            <option value='LCM'>LCM</option>
+            <option value='LDM'>LDM</option>
+            <option value='LF'>LF</option>
+            <option value='LM'>LM</option>
+            <option value='LS'>LS</option>
+            <option value='LW'>LW</option>
+            <option value='LWB'>LWB</option>
+            <option value='RAM'>RAM</option>
+            <option value='RB'>RB</option>
+            <option value='RCB'>RCB</option>
+            <option value='RCM'>RCM</option>
+            <option value='RDM'>RDM</option>
+            <option value='RES'>RES</option>
+            <option value='RF'>RF</option>
+            <option value='RM'>RM</option>
+            <option value='RS'>RS</option>
+            <option value='RW'>RW</option>
+            <option value='RWB'>RWB</option>
+            <option value='ST'>ST</option>
+            <option value='SUB'>SUB</option>
+        </select> 
+        <select name="comp_select3" class="Input">
+            {% for o in data3 %}
+            <option disabled value="{{ o.region }}">{{ o.region }}</option>
+            {% endfor %}
+          </select>        
+        <br><br>
+        <select name="talent" style= "width: 240px" size="6" multiple>
+            <option value='Dribbler'>Dribbler</option>
+            <option value='Speedster'>Speedster</option>
+            <option value='Distance_Shooter'>Distance_Shooter</option>
+            <option value='Acrobat'>Acrobat</option>
+            <option value='Clinical_Finisher'>Clinical_Finisher</option>
+            <option value='Complete_Forward'>Complete_Forward</option>
+            <option value='Complete_Midfielder'>Complete_Midfielder</option>
+            <option value='Playmaker'>Playmaker</option>
+            <option value='Crosser'>Crosser</option>
+            <option value='Aerial_Threat'>Aerial_Threat</option>
+            <option value='Tactician'>Tactician</option>
+            <option value='FK_Specialist'>FK_Specialist</option>
+            <option value='Ordinary'>Ordinary</option>
+            <option value='Engine'>Engine</option>
+            <option value='Tackling'>Tackling</option>
+            <option value='Tactician'>Tactician</option>
+            <option value='Complete_Defender'>Complete_Defender</option>
+            <option value='Poacher'>Poacher</option>
+            
+        </select>
+        <select name="traits" style="width: 240px" size="6" multiple>
+            <option value='ordinary'>Traits : Select All that Applies</option>
+            <option value='Acrobatic_Clearance'>Acrobatic_Clearance</option>
+            <option value='Argues_with_Officials'>Argues_with_Officials</option>
+            <option value='Avoids_Using_Weaker_Foot'>Avoids_Using_Weaker_Foot</option>
+            <option value='Beat_Offside_Trap'>Beat_Offside_Trap</option>
+            <option value='Crowd_Favourite'>Crowd_Favourite</option>
+            <option value='Diver'>Diver</option>
+            <option value='Dives_Into_Tackles'>Dives_Into_Tackles</option>
+            <option value='Early_Crosser'>Early_Crosser</option>
+            <option value='Finesse_Shot'>Finesse_Shot</option>
+            <option value='Flair'>Flair</option>
+            <option value='Flair_Passes'>Flair_Passes</option>
+            <option value='Giant_Throw_in'>Giant_Throw_in</option>
+            <option value='Good'>Good</option>
+            <option value='Inflexible'>Inflexible</option>
+            <option value='Injury_Free'>Injury_Free</option>
+            <option value='Injury_Prone'>Injury_Prone</option>
+            <option value='Leadership'>Leadership</option>
+            <option value='Long_Passer'>Long_Passer</option>
+            <option value='Long_Shot_Taker'>Long_Shot_Taker</option>
+            <option value='Long_Throw_in'>Long_Throw_in</option>
+            <option value='Outside_Foot_Shot'>Outside_Foot_Shot</option>
+            <option value='Power_Free_Kick'>Power_Free_Kick</option>
+            <option value='Second_Wind'>Second_Wind</option>
+            <option value='Selfish'>Selfish</option>
+            <option value='Skilled_Dribbling'>Skilled_Dribbling</option>
+            <option value='Speed_Dribbler'>Speed_Dribbler</option>
+            <option value='Swerve_Pass'>Swerve_Pass</option>
+            
+        </select>
+        <div><h4> {{prediction_text}} </h4></div>
+        <button type="submit" class="pred-btn"> Predict </button>
+    </form>         
+
+
+
+</div>
+
+
+
+</body>
+</html>

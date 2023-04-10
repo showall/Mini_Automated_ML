@@ -1,0 +1,668 @@
+,club,club_type
+0,FC Barcelona,Elite
+1,Real Madrid,Elite
+2,Juventus,Elite
+3,Manchester City,Elite
+11,Paris Saint-Germain,Elite
+17,Manchester United,Elite
+21,Liverpool,Elite
+24,Chelsea,Elite
+25,FC Bayern München,Elite
+28,Tottenham Hotspur,Elite
+36,Arsenal,Elite
+62,Borussia Dortmund,Elite
+80,Napoli,Elite
+102,Inter,Elite
+115,Atlético Madrid,Elite
+119,West Ham United,Tier1
+120,Wolverhampton Wanderers,Tier1
+133,Everton,Tier1
+142,Leicester City,Tier1
+152,Olympique Lyonnais,Tier1
+158,Lazio,Tier1
+164,Fenerbahçe SK,Tier1
+193,Atalanta,Tier1
+206,Crystal Palace,Tier1
+209,Bayer 04 Leverkusen,Tier1
+216,Tigres U.A.N.L.,Tier1
+244,Bournemouth,Tier1
+253,Besiktas JK,Tier1
+265,Watford,Tier1
+269,RB Leipzig,Tier1
+271,Galatasaray SK,Tier1
+292,Roma,Tier1
+325,Valencia CF,Tier1
+348,Medipol Basaksehir FK,Tier1
+351,AS Monaco,Tier1
+382,Torino,Tier1
+384,Fiorentina,Tier1
+392,VfL Wolfsburg,Tier1
+397,TSG 1899 Hoffenheim,Tier1
+402,Aston Villa,Tier1
+409,Olympique de Marseille,Tier1
+411,Atlético Mineiro,Tier1
+427,Al Nassr,Tier1
+452,Leeds United,Tier1
+458,Milan,Tier1
+461,Al Hilal,Tier1
+499,Southampton,Tier1
+500,Brighton & Hove Albion,Tier1
+508,Norwich City,Tier1
+529,Newcastle United,Tier1
+544,Celtic,Tier2
+552,Cagliari,Tier2
+553,Grêmio,Tier2
+581,Sassuolo,Tier2
+586,Club América,Tier2
+590,RC Celta,Tier2
+591,Eintracht Frankfurt,Tier2
+595,Parma,Tier2
+597,Fulham,Tier2
+617,Santos,Tier2
+636,Al Ahli,Tier2
+645,Monterrey,Tier2
+655,Sampdoria,Tier2
+689,Villarreal CF,Tier2
+702,Stade Rennais FC,Tier2
+711,West Bromwich Albion,Tier2
+719,Real Betis,Tier2
+720,Real Sociedad,Tier2
+728,Burnley,Tier2
+736,Rangers FC,Tier2
+748,Guangzhou Evergrande Taobao FC,Tier2
+755,AS Saint-Étienne,Tier2
+792,LOSC Lille,Tier2
+811,Borussia Mönchengladbach,Tier2
+839,Fluminense,Tier2
+855,Brentford,Tier2
+862,Nottingham Forest,Tier2
+869,Ajax,Tier2
+874,Levante UD,Tier2
+875,FC Girondins de Bordeaux,Tier2
+896,Al Ittihad,Tier2
+914,Montpellier HSC,Tier2
+915,Toulouse Football Club,Tier2
+924,Guadalajara,Tier2
+943,SV Werder Bremen,Tier2
+947,FC Schalke 04,Tier2
+954,FC Red Bull Salzburg,Tier2
+972,Athletic Club de Bilbao,Tier2
+977,RCD Espanyol,Tier2
+978,1. FC Köln,Tier2
+985,Bologna,Tier2
+1005,Getafe CF,Tier2
+1023,1. FC Union Berlin,Tier2
+1032,Stoke City,Tier2
+1055,Beijing Sinobo Guoan FC,Tier2
+1058,SD Eibar,Tier2
+1059,Cruzeiro,Tier2
+1060,Hertha BSC,Tier2
+1063,Trabzonspor,Tier2
+1070,Sheffield United,Tier2
+1098,River Plate,Tier2
+1141,Jiangsu Suning FC,Tier2
+1154,RC Strasbourg Alsace,Tier2
+1157,CD Leganés,Tier2
+1159,VfB Stuttgart,Tier2
+1162,OGC Nice,Tier2
+1168,Club León,Tier2
+1169,CA Osasuna,Tier2
+1173,Huddersfield Town,Tier3
+1202,Bristol City,Tier3
+1206,RSC Anderlecht,Tier3
+1211,Boca Juniors,Tier3
+1244,Club Brugge KV,Tier3
+1251,Internacional,Tier3
+1254,SC Freiburg,Tier3
+1256,FC Augsburg,Tier3
+1262,Fortuna Düsseldorf,Tier3
+1264,1. FSV Mainz 05,Tier3
+1274,Swansea City,Tier3
+1287,Hannover 96,Tier3
+1303,Shanghai SIPG FC,Tier3
+1306,Sevilla FC,Tier3
+1307,Shanghai Greenland Shenhua FC,Tier3
+1309,FC Nantes,Tier3
+1333,Ettifaq FC,Tier3
+1351,Middlesbrough,Tier3
+1362,Al Shabab,Tier3
+1379,Deportivo Alavés,Tier3
+1385,Tianjin Quanjian FC,Tier3
+1438,Brescia,Tier3
+1470,FC Sion,Tier3
+1471,FC Basel 1893,Tier3
+1473,Al Taawoun,Tier3
+1511,Dalian YiFang FC,Tier3
+1512,SL Benfica,Tier3
+1514,PSV,Tier3
+1525,Real Valladolid CF,Tier3
+1529,BSC Young Boys,Tier3
+1539,Botafogo,Tier3
+1543,Cardiff City,Tier3
+1548,Deportivo Toluca,Tier3
+1562,Denizlispor,Tier3
+1572,Sheffield Wednesday,Tier3
+1587,Stade de Reims,Tier3
+1601,Racing Club,Tier3
+1602,Guangzhou R&F FC,Tier3
+1619,Cruz Azul,Tier3
+1647,RCD Mallorca,Tier3
+1649,Al Wehda,Tier3
+1691,Sporting CP,Tier3
+1799,FC Porto,Tier3
+1806,KRC Genk,Tier3
+1807,Shenzhen FC,Tier3
+1812,FC København,Tier3
+1814,KAA Gent,Tier3
+1827,Shandong Luneng TaiShan FC,Tier3
+1837,Granada CF,Tier3
+1838,Angers SCO,Tier3
+1855,Pachuca,Tier3
+1856,Santos Laguna,Tier3
+1864,Derby County,Tier3
+1925,Club Tijuana,Tier3
+1931,Gençlerbirligi SK,Tier3
+1932,Independiente,Tier3
+1951,San Lorenzo de Almagro,Tier3
+1959,Preston North End,Tier3
+2020,Feyenoord,Tier3
+2021,Hebei China Fortune FC,Tier3
+2023,Udinese,Tier3
+2039,Club Atlético Lanús,Tier3
+2059,U.N.A.M.,Tier3
+2080,Al Fateh,Tier3
+2118,Genoa,Tier3
+2124,Tianjin TEDA FC,Tier3
+2148,Amiens SC,Tier3
+2158,Stade Brestois 29,Tier3
+2174,Blackburn Rovers,Tier3
+2180,Nîmes Olympique,Tier3
+2182,Göztepe SK,Tier3
+2185,MKE Ankaragücü,Tier3
+2208,Al Fayha,Tier3
+2220,SC Paderborn 07,Tier3
+2252,Beijing Renhe FC,Tier3
+2264,Hellas Verona,Tier3
+2292,FC Midtjylland,Tier3
+2294,Club Atlas,Tier3
+2307,Brøndby IF,Tier3
+2366,SC Braga,Tier3
+2368,Wuhan Zall,Tier3
+2381,Standard de Liège,Tier3
+2388,FC Utrecht,Tier3
+2398,FC Metz,Tier3
+2403,Atiker Konyaspor,Tier3
+2412,Vitesse,Tier3
+2469,Al Raed,Tier3
+2509,Los Angeles FC,Tier3
+2513,CSA - AL,Tier3
+2518,Royal Antwerp FC,Tier3
+2520,Godoy Cruz,Tier4
+2526,Club Atlético Colón,Tier4
+2554,Vélez Sarsfield,Tier4
+2555,Chapecoense,Tier4
+2565,Estudiantes de La Plata,Tier4
+2569,DSC Arminia Bielefeld,Tier4
+2572,Rosario Central,Tier4
+2573,Club Atlético Huracán,Tier4
+2578,Reading,Tier4
+2593,Lecce,Tier4
+2631,Al Faisaly,Tier4
+2669,Sivasspor,Tier4
+2671,SPAL,Tier4
+2675,Atlético de San Luis,Tier4
+2683,Hamburger SV,Tier4
+2688,Avaí FC,Tier4
+2697,Alanyaspor,Tier4
+2711,Newell's Old Boys,Tier4
+2712,Antalyaspor,Tier4
+2715,FCSB (Steaua),Tier4
+2727,VfL Bochum 1848,Tier4
+2773,SK Sturm Graz,Tier4
+2802,LA Galaxy,Tier4
+2808,Girona FC,Tier4
+2821,Unión de Santa Fe,Tier4
+2830,1. FC Nürnberg,Tier4
+2831,Yeni Malatyaspor,Tier4
+2833,Urawa Red Diamonds,Tier4
+2835,1. FC Heidenheim 1846,Tier4
+2855,Gazisehir Gaziantep F.K.,Tier4
+2859,Gimnasia y Esgrima La Plata,Tier4
+2861,Atlético Paranaense,Tier4
+2880,FK Austria Wien,Tier4
+2883,Club Atlético Talleres,Tier4
+2887,FC St. Pauli,Tier4
+2908,SV Darmstadt 98,Tier4
+2974,Atlanta United,Tier4
+2977,Real Zaragoza,Tier4
+2996,Kayserispor,Tier4
+3004,Universidad Católica,Tier4
+3014,Club Atlético Banfield,Tier4
+3015,Hull City,Tier4
+3021,Dijon FCO,Tier4
+3035,SK Rapid Wien,Tier4
+3085,SG Dynamo Dresden,Tier4
+3105,FC Juárez,Tier4
+3174,Chicago Fire,Tier4
+3175,DC United,Tier4
+3176,Orlando City SC,Tier4
+3178,Montreal Impact,Tier4
+3184,Chongqing Dangdai Lifan FC SWM Team,Tier4
+3185,Vitória Guimarães,Tier4
+3194,Bahia,Tier4
+3196,Fortaleza,Tier4
+3198,Aalborg BK,Tier4
+3211,Atlético Tucumán,Tier4
+3213,Goiás,Tier4
+3220,Henan Jianye FC,Tier4
+3224,Sporting de Charleroi,Tier4
+3242,Holstein Kiel,Tier4
+3244,Sunderland,Tier4
+3245,Çaykur Rizespor,Tier4
+3270,Birmingham City,Tier4
+3272,Charlton Athletic,Tier4
+3303,Damac FC,Tier4
+3354,Toronto FC,Tier4
+3363,Melbourne Victory,Tier4
+3365,AZ Alkmaar,Tier4
+3367,Kawasaki Frontale,Tier4
+3376,Querétaro,Tier4
+3390,LASK Linz,Tier4
+3400,FC Tokyo,Tier4
+3403,Defensa y Justicia,Tier4
+3405,Ceará Sporting Club,Tier4
+3408,Argentinos Juniors,Tier4
+3420,Kasimpasa SK,Tier4
+3429,Gamba Osaka,Tier4
+3444,FC Zürich,Tier4
+3449,KV Oostende,Tier4
+3460,KV Kortrijk,Tier4
+3462,Odense Boldklub,Tier4
+3463,FC Thun,Tier4
+3465, SSV Jahn Regensburg,Tier4
+3581,Portland Timbers,Tier4
+3587,Nagoya Grampus,Tier4
+3589,New York Red Bulls,Tier4
+3590,New England Revolution,Tier4
+3607,Deportivo de La Coruña,Tier4
+3609,Moreirense FC,Tier4
+3617,CD Aves,Tier4
+3618,KAS Eupen,Tier4
+3620,Famalicão,Tier4
+3621,Real Oviedo,Tier4
+3623,Monarcas Morelia,Tier4
+3625,Legia Warszawa,Tier4
+3638,Club Atlético Aldosivi,Tier4
+3642,Club Necaxa,Tier4
+3650,Jeonbuk Hyundai Motors,Tier4
+3666,KSV Cercle Brugge,Tier4
+3672,KV Mechelen,Tier4
+3676,CFR Cluj,Tier4
+3680,SV Zulte-Waregem,Tier4
+3721,Wigan Athletic,Tier4
+3759,SV Wehen Wiesbaden,Tier4
+3770,Abha Club,Tier4
+3837,Vissel Kobe,Tier4
+3840,Seattle Sounders FC,Tier4
+3850,Minnesota United FC,Tier4
+3851,Portimonense SC,Tier4
+3861,En Avant de Guingamp,Tier4
+3862,Sydney FC,Tier4
+3863,Málaga CF,Tier4
+3864,Clube Sport Marítimo,Tier4
+3875,Rio Ave FC,Tier4
+3878,Cádiz CF,Tier4
+3879,AIK,Tier4
+3922,Sint-Truidense VV,Tier4
+3923,Servette FC,Tier4
+3941,Patronato,Tier4
+3960,Al Hazem,Tier4
+3961,Millwall,Tier4
+3967,Wolfsberger AC,Tier4
+4020,Karlsruher SC,Tier4
+4058,Luton Town,Tier4
+4059,Salford City,Tier4
+4124,Columbus Crew SC,Tier4
+4125,New York City FC,Tier4
+4127,FC Groningen,Tier4
+4129,Rayo Vallecano,Tier4
+4133,CD Tenerife,Tier4
+4136,Molde FK,Tier4
+4137,Wisla Kraków,Tier4
+4139,Philadelphia Union,Tier4
+4142,Sporting Kansas City,Tier4
+4147,Puebla FC,Tier4
+4149,Colorado Rapids,Tier4
+4151,Perth Glory,Tier4
+4154,Malmö FF,Tier4
+4155,SD Huesca,Tier4
+4170,Kashima Antlers,Tier4
+4178,Heart of Midlothian,Tier4
+4186,Albacete BP,Tier4
+4213,Fortuna Sittard,Tier4
+4223,FC Nordsjælland,Tier4
+4224,Lech Poznan,Tier4
+4226,Central Córdoba,Tier4
+4245,Universidad de Chile,Tier4
+4278,Melbourne City FC,Tier4
+4283,Sanfrecce Hiroshima,Tier4
+4453,Real Salt Lake,Tier4
+4458,Houston Dynamo,Tier4
+4472,Real Sporting de Gijón,Tier4
+4474,Colo-Colo,Tier4
+4498,UD Las Palmas,Tier4
+4515,FC Dallas,Tier4
+4516,CD Tondela,Tier4
+4523,AD Alcorcón,Tier4
+4524,FC Twente,Tier4
+4530,FC Paços de Ferreira,Tier5
+4537,FC Seoul,Tier5
+4540,Racing Club de Lens,Tier5
+4548,ADO Den Haag,Tier5
+4552,Lechia Gdansk,Tier5
+4555,Jagiellonia Bialystok,Tier5
+4557,Queens Park Rangers,Tier5
+4559,Tiburones Rojos de Veracruz,Tier5
+4571,Randers FC,Tier5
+4592,PEC Zwolle,Tier5
+4595,Arsenal de Sarandí,Tier5
+4613,CD Lugo,Tier5
+4665,Royal Excel Mouscron,Tier5
+4673,VfL Osnabrück,Tier5
+4698,FC Botosani,Tier5
+4751,SønderjyskE,Tier5
+4830,Bradford City,Tier5
+4835,SV Mattersburg,Tier5
+4838,Al Adalah,Tier5
+4896,Boavista FC,Tier5
+4907,Neuchâtel Xamax,Tier5
+4909,Os Belenenses,Tier5
+4912,SV Sandhausen,Tier5
+4921,FC Lorient,Tier5
+4923,Universitatea Craiova,Tier5
+4932,Piast Gliwice,Tier5
+4934,Elche CF,Tier5
+4940,Rosenborg BK,Tier5
+4951,Yokohama F. Marinos,Tier5
+4956,FC Cincinnati,Tier5
+4957,San Jose Earthquakes,Tier5
+4958,Daegu FC,Tier5
+4967,FC Lugano,Tier5
+4970,IFK Norrköping,Tier5
+4974,VVV-Venlo,Tier5
+4978,Cerezo Osaka,Tier5
+4980,Stade Malherbe Caen,Tier5
+4981,Paris FC,Tier5
+4991,Ulsan Hyundai FC,Tier5
+4998,ESTAC Troyes,Tier5
+5020,Gil Vicente FC,Tier5
+5033,Dinamo Bucuresti,Tier5
+5036,KFC Uerdingen 05,Tier5
+5039,Willem II,Tier5
+5059,SpVgg Greuther Fürth,Tier5
+5097,Barnsley,Tier5
+5114,Peterborough United,Tier5
+5131,Fleetwood Town,Tier5
+5141,FC Viitorul,Tier5
+5158,FC Luzern,Tier5
+5171,Ipswich Town,Tier5
+5183,Portsmouth,Tier5
+5200,FC St. Gallen,Tier5
+5213,Aarhus GF,Tier5
+5337,Mansfield Town,Tier5
+5437,Independiente Medellín,Tier5
+5441,Chievo Verona,Tier5
+5446,Santa Clara,Tier5
+5460,Aberdeen,Tier5
+5462,SK Brann,Tier5
+5463,BK Häcken,Tier5
+5465,Sagan Tosu,Tier5
+5489,UD Almería,Tier5
+5499,Valenciennes FC,Tier5
+5502,Vitória de Setúbal,Tier5
+5529,Suwon Samsung Bluewings,Tier5
+5544,Gyeongnam FC,Tier5
+5547,FC Ingolstadt 04,Tier5
+5559,FC Emmen,Tier5
+5562,AJ Auxerre,Tier5
+5570,FC Erzgebirge Aue,Tier5
+5573,Extremadura UD,Tier5
+5575,Cracovia,Tier5
+5592,CD Numancia,Tier5
+5647,SC Heerenveen,Tier5
+5723,Sepsi OSK,Tier5
+5725,FC Admira Wacker Mödling,Tier5
+5735,SKN St. Pölten,Tier5
+5740,Sparta Rotterdam,Tier5
+5751,Astra Giurgiu,Tier5
+5811,SCR Altach,Tier5
+5846,Burton Albion,Tier5
+5857,Hobro IK,Tier5
+5890,Scunthorpe United,Tier5
+5962,Northampton Town,Tier5
+5964,Walsall,Tier5
+5969,Plymouth Argyle,Tier5
+6076,Junior FC,Tier5
+6078,Atlético Nacional,Tier5
+6081,Empoli,Tier5
+6083,Frosinone,Tier5
+6085,Shimizu S-Pulse,Tier5
+6091,Pescara,Tier5
+6093,Górnik Zabrze,Tier5
+6095,CD Everton de Viña del Mar,Tier5
+6097,Benevento,Tier5
+6098,Djurgårdens IF,Tier5
+6099,Perugia,Tier5
+6115,Hokkaido Consadole Sapporo,Tier5
+6134,Hammarby IF,Tier5
+6156,Vancouver Whitecaps FC,Tier5
+6158,Heracles Almelo,Tier5
+6169,Júbilo Iwata,Tier5
+6173,Kilmarnock,Tier5
+6184,Grenoble Foot 38,Tier5
+6185,Korona Kielce,Tier5
+6200,Le Havre AC,Tier5
+6206,Hibernian,Tier5
+6243,Racing Santander,Tier5
+6252,CF Fuenlabrada,Tier5
+6259,FC Sochaux-Montbéliard,Tier5
+6279,Pohang Steelers,Tier5
+6285,Clermont Foot 63,Tier5
+6306,Doncaster Rovers,Tier5
+6324,Waasland-Beveren,Tier5
+6450,Lincoln City,Tier5
+6469,Esbjerg fB,Tier5
+6470,Rotherham United,Tier5
+6500,WSG Tirol,Tier5
+6503,Oldham Athletic,Tier5
+6510,Oxford United,Tier5
+6512,Coventry City,Tier5
+6635,Milton Keynes Dons,Tier5
+6719,Colchester United,Tier5
+6730,Swindon Town,Tier5
+6788,Forest Green Rovers,Tier5
+6967,Helsingborgs IF,Tier5
+6976,Deportes Tolima,Tier5
+6994,Spezia,Tier5
+6995,US Salernitana 1919,Tier6
+6997,Crotone,Tier6
+6999,Kalmar FF,Tier6
+7003,US Cremonese,Tier6
+7004,Vegalta Sendai,Tier6
+7032,Ascoli,Tier6
+7042,Millonarios FC,Tier6
+7043,CD Universidad de Concepción,Tier6
+7051,Chamois Niortais Football Club,Tier6
+7057,AS Nancy Lorraine,Tier6
+7060,Audax Italiano,Tier6
+7070,Unión Española,Tier6
+7071,Jeju United FC,Tier6
+7085,Pogon Szczecin,Tier6
+7103,CD O'Higgins,Tier6
+7106,AC Ajaccio,Tier6
+7110,IFK Göteborg,Tier6
+7112,SpVgg Unterhaching,Tier6
+7118,Wisla Plock,Tier6
+7121,Vålerenga Fotball,Tier6
+7123,IF Elfsborg,Tier6
+7124,Zaglebie Lubin,Tier6
+7126,Gangwon FC,Tier6
+7147,SD Ponferradina,Tier6
+7189,CD Huachipato,Tier6
+7243,1. FC Magdeburg,Tier6
+7253,CD Mirandés,Tier6
+7362,Gaz Metan Medias,Tier6
+7384,Shrewsbury,Tier6
+7390,Southend United,Tier6
+7396,Blackpool,Tier6
+7432,FC Hermannstadt,Tier6
+7459,TSV Hartberg,Tier6
+7539,AC Horsens,Tier6
+7569,Bristol Rovers,Tier6
+7603,Stevenage,Tier6
+7655,Lyngby BK,Tier6
+7775,Silkeborg IF,Tier6
+7776,Exeter City,Tier6
+7875,Carlisle United,Tier6
+7906,Port Vale,Tier6
+8014,Cheltenham Town,Tier6
+8021,Crewe Alexandra,Tier6
+8091,Leyton Orient,Tier6
+8270,Western United FC,Tier6
+8272,Deportivo Cali,Tier6
+8273,Coquimbo Unido,Tier6
+8276,Once Caldas,Tier6
+8277,América de Cali,Tier6
+8285,CD Palestino,Tier6
+8291,Livorno,Tier6
+8292,Virtus Entella,Tier6
+8309,Cosenza,Tier6
+8315,CD Antofagasta,Tier6
+8325,Sarpsborg 08 FF,Tier6
+8357,Unión La Calera,Tier6
+8359,Arka Gdynia,Tier6
+8360,Venezia FC,Tier6
+8368,Sangju Sangmu FC,Tier6
+8382,Bayern München II,Tier6
+8385,St. Johnstone FC,Tier6
+8386,Motherwell,Tier6
+8389,Lillestrøm SK,Tier6
+8397,Örebro SK,Tier6
+8409,1. FC Kaiserslautern,Tier6
+8424,Le Mans FC,Tier6
+8431,Hallescher FC,Tier6
+8435,La Berrichonne de Châteauroux,Tier6
+8437,Incheon United FC,Tier6
+8438,Shonan Bellmare,Tier6
+8441,FK Bodø/Glimt,Tier6
+8452,Odds BK,Tier6
+8458,Eintracht Braunschweig,Tier6
+8462,Curicó Unido,Tier6
+8471,Newcastle Jets,Tier6
+8604,Bolton Wanderers,Tier6
+8616,SG Sonnenhof Großaspach,Tier6
+8648,LKS Lodz,Tier6
+8652,FC Würzburger Kickers,Tier6
+8654,Politehnica Iasi,Tier6
+8717,Wycombe Wanderers,Tier6
+8726,RKC Waalwijk,Tier6
+8783,Rochdale,Tier6
+8797,Livingston FC,Tier6
+8812,FC Voluntari,Tier6
+8820,Accrington Stanley,Tier6
+8987,Gillingham,Tier6
+9026,Grimsby Town,Tier6
+9192,AFC Wimbledon,Tier6
+9237,Tranmere Rovers,Tier6
+9252,Morecambe,Tier6
+9299,St. Mirren,Tier6
+9426,Crawley Town,Tier6
+9475,Newport County,Tier6
+9500,Cambridge United,Tier6
+10095,Unión Magdalena,Tier6
+10097,Cúcuta Deportivo,Tier6
+10100,Atlético Bucaramanga,Tier6
+10101,La Equidad,Tier6
+10104,Pordenone,Tier6
+10106,Deportes Iquique,Tier6
+10107,Cittadella,Tier6
+10117,Alianza Petrolera,Tier6
+10118,Independiente Santa Fe,Tier6
+10121,Kristiansund BK,Tier6
+10131,Deportivo Pasto,Tier6
+10138,Pisa,Tier6
+10141,Castellammare di Stabia,Tier6
+10146,Central Coast Mariners,Tier6
+10177,Shamrock Rovers,Tier6
+10189,Dundalk,Tier6
+10197,Strømsgodset IF,Tier6
+10200,MSV Duisburg,Tier6
+10201,FC Hansa Rostock,Tier6
+10210,Brisbane Roar,Tier6
+10218,Falkenbergs FF,Tier6
+10223,CD Cobresal,Tier6
+10293,Tromsø IL,Tier6
+10322,Adelaide United,Tier6
+10323,Ranheim Fotball,Tier6
+10328,Matsumoto Yamaga,Tier6
+10405,Stabæk Fotball,Tier6
+10434,Oita Trinita,Tier6
+10456,IK Sirius,Tier6
+10480,Rodez Aveyron Football,Tier6
+10486,Viking FK,Tier6
+10488,Östersunds FK,Tier6
+10510,FC Chambly Oise,Tier6
+10517,SC Preußen Münster,Tier6
+10673,FK Haugesund,Tier6
+10768,Mjøndalen IF,Tier6
+10804,Hamilton Academical FC,Tier6
+10841,Raków Czestochowa,Tier6
+10845,Viktoria Köln,Tier6
+10902,Chindia Târgoviste,Tier6
+11396,Ross County FC,Tier6
+11503,Academica Clinceni,Tier6
+11517,Macclesfield Town,Tier6
+13062,Lokomotiv Moscow,Tier6
+13063,Shakhtar Donetsk,Tier6
+13065,PFC CSKA Moscow,Tier6
+13067,Dinamo Zagreb,Tier6
+13069,Olympiacos CFP,Tier6
+13074,Spartak Moscow,Tier6
+13075,Dynamo Kyiv,Tier6
+13076,SK Slavia Praha,Tier6
+13084,Kaizer Chiefs,Tier6
+13087,Sparta Praha,Tier6
+13091,PAOK,Tier6
+13102,AEK Athens,Tier6
+13122,Viktoria Plzen,Tier6
+13137,Al Ain FC,Tier6
+13149,Panathinaikos FC,Tier6
+13298,Atlético Huila,Tier6
+13309,Envigado FC,Tier6
+13310,Patriotas Boyacá FC,Tier6
+13325,Rionegro Águilas,Tier6
+13331,Jaguares de Córdoba,Tier6
+13339,FSV Zwickau,Tier6
+13351,Orlando Pirates,Tier6
+13362,HJK Helsinki,Tier6
+13428,TSV 1860 München,Tier6
+13453,Wellington Phoenix,Tier6
+13488,SV Waldhof Mannheim,Tier6
+13515,SV Meppen,Tier6
+13525,Trapani,Tier6
+13614,FC Carl Zeiss Jena,Tier6
+13661,Chemnitzer FC,Tier6
+13769,US Orléans Loiret Football,Tier6
+14201,AFC Eskilstuna,Tier6
+14221,Cork City,Tier6
+14272,St. Patrick's Athletic,Tier6
+14295,Bohemian FC,Tier6
+14421,Waterford FC,Tier6
+14662,Derry City,Tier6
+14664,Bury,Tier6
+14732,GIF Sundsvall,Tier6
+14984,Sligo Rovers,Tier6
+15891,Finn Harps,Tier6
+15898,Seongnam FC,Tier6
+16432,UCD AFC,Tier6
+16742,Slask Wroclaw,Tier6
